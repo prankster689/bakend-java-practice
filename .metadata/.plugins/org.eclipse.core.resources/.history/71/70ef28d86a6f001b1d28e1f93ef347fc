@@ -1,0 +1,21 @@
+
+package yogesh;
+import java.util.*;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Scanner sc=new Scanner(System.in);
+        System.out.println( "Hello World!" );
+        System.out.println("1.display all files in dir"+" 2.delete 3.search");
+        int ch=0;
+       System.out.println("Enter your choice");
+       ch=sc.nextInt();
+       
+    }
+}
